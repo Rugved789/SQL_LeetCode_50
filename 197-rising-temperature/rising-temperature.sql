@@ -1,0 +1,1 @@
+select today.id from weather today join weather y on today.recordDate - y.recordDate = 1 where today.temperature > y.temperature;
